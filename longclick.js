@@ -1,5 +1,5 @@
 /*
-	fonction longclick créee et partagée sous licence libre par
+	fonction longclick créer et partagée sous licence libre par
 	Ntyandi Murelh
 	http://murelh.info
 	Développeur web
@@ -22,12 +22,18 @@ jQuery.fn.extend({
 		
         $(this).on('mousedown',function(e) // au clique sur l'élément
 		{
-			setTimeout(function()
+			var timer = setTimeout(function()
 			{
 				fn();
 				callbacks.fire(call);
 			},
 			duration);
+			$(this).on('mouseup',function(e)
+			{
+				clearTimeout(timer);
+				console.log('clear')
+			});
 		});
+		
 	}
 });
