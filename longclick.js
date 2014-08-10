@@ -31,7 +31,6 @@ jQuery.fn.extend({
 			$(this).on('mouseup',function(e)
 			{
 				clearTimeout(timer);
-				console.log('clear')
 			});
 		});
 		
