@@ -16,7 +16,7 @@ jQuery.fn.extend({
 		}
 		else if(call != undefined)
 		{
-			console.warn('Les istructions de retour de la fonction $.longclick(fn, duration, callback) ne pourront pas être exécutées car elles ne font pas partie d\'une fonction. Ci-dessous, l\'objet concerné:');
+			console.warn('Les instructions de retour de la fonction $.longclick(fn, duration, callback) ne pourront pas être exécutées car elles ne font pas partie d\'une fonction. Ci-dessous, l\'objet concerné:');
 			console.log(this);
 		}
 		
