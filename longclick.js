@@ -1,8 +1,7 @@
 /*
-	fonction longclick créer et partagée sous licence libre par
 	Ntyandi Murelh
-	http://murelh.info
-	Développeur web
+	http://murelh.info/logiciel.php?page=longclick
+	https://github.com/murelh/longclick/
 */
 
 jQuery.fn.extend({
